@@ -1,0 +1,16 @@
+Created temporary directory: /tmp/pip-ephem-wheel-cache-kyem2x72
+Created temporary directory: /tmp/pip-req-tracker-ep1fel8r
+Created requirements tracker '/tmp/pip-req-tracker-ep1fel8r'
+Created temporary directory: /tmp/pip-install-7bw47mqh
+Cleaning up...
+Removed build tracker '/tmp/pip-req-tracker-ep1fel8r'
+ERROR: You must give at least one requirement to install (see "pip help install")
+Exception information:
+Traceback (most recent call last):
+  File "/home/neosp/.local/lib/python3.5/site-packages/pip/_internal/basecommand.py", line 141, in main
+    status = self.run(options, args)
+  File "/home/neosp/.local/lib/python3.5/site-packages/pip/_internal/commands/install.py", line 274, in run
+    self.name, wheel_cache
+  File "/home/neosp/.local/lib/python3.5/site-packages/pip/_internal/basecommand.py", line 248, in populate_requirement_set
+    '(see "pip help %(name)s")' % opts)
+pip._internal.exceptions.CommandError: You must give at least one requirement to install (see "pip help install")
